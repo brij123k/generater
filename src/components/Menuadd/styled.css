@@ -1,0 +1,93 @@
+.custom-page {
+  text-align: center;
+  border-bottom: 1px solid rgb(150, 30, 30);
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  color: rgb(22, 71, 233);
+
+}
+ .Upload {
+  background-color: teal;
+  border: 1px solid white;
+  width: 150px;
+  height: 45px;
+  font-size: bolder;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  border-radius:10px;
+}
+.logo span {
+  margin-top: 10px;
+  margin-right: 3px;
+  
+}
+.camera {
+  margin-top: 12px;
+}
+.shop-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  
+}
+.shop-name input {
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 200px;
+  height: 45px;
+  background-color: teal;
+  margin-left: 30px;
+  padding-left: 2px;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+}
+.shop-name span {
+  color: rgb(22, 71, 233);
+}
+.shop-name input::placeholder {
+  color: white;
+}
+.Add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(22, 71, 233);
+  margin-right: 23px;
+}
+.Add .Add-but {
+  background-color: teal;
+  border: 1px solid white;
+  width: 150px;
+  height: 45px;
+  font-size: bolder;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  border-radius:10px;
+}
+
+.Publish .publish-but {
+  background-color: teal;
+  border: 1px solid white;
+  width: 50%;
+  font-size: bolder;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left:28%;
+}
+@media(max-width:480px){
+  .Publish .publish-but {
+    width: 95%;
+    margin-left:2%;
+  }
+} 

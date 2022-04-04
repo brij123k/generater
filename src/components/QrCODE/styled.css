@@ -1,0 +1,43 @@
+.App{
+    /*  */
+    text-align: center;
+    /* flex-direction: column; */
+}
+.gen input{
+height: 35px;
+width: 250px;
+font-size: 20px;
+padding-left: 5px;
+}
+.Gen-button{
+height: 38px;
+width: 100%;
+margin-top: 6px;
+text-align: center;
+font-size: 18px;
+border: none;
+color: whitesmoke;
+background-color: forestgreen;
+box-shadow: 2px 2px 5px rgb(74, 182, 74);
+cursor: pointer;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.extra{
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+
+}
+.output-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.range{
+    flex-direction: column;
+    color: red;
+    background-color: red;
+}

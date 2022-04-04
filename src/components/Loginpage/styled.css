@@ -1,0 +1,86 @@
+.container-login{
+    margin-top: 5rem;
+    margin-left:5rem ;
+    
+}
+.number-digit{
+    font-weight: 400;
+    font-size: 11px;
+}
+.number-proceed{
+    font-weight: bold;
+    font-size: 15px;
+}
+.mobileNumber{
+    background-color: transparent;
+    line-height: normal;
+    border: none;
+    border-bottom: 1px solid #bebfc5;
+    outline: 0;
+    height: 42px;
+    width:  85vw;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-left: 30px;
+}
+.india-num{
+    
+    line-height: 42px;
+    font-weight: 500;
+    position: absolute;
+    font-size: 15px;
+    will-change: opacity;
+    transition: opacity .25s ease-in-out;
+    cursor: pointer;
+    margin-top:-42px;
+    padding: 0;
+    
+}
+.button-dec{
+    margin-top:1rem ;
+
+}
+ .phone-button{
+    background-color: hsl(122, 39%, 49%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 88vw;
+    padding: 15px;
+} 
+
+
+.bottom-dec {
+   font-size:11px;
+}
+.term-condation{
+    font-weight: bolder;
+}
+.privacy-policy{
+    font-weight: bolder;
+}
+.and{
+    font-weight: 200;
+} 
+ @media(max-width:480px){
+   .container-login {
+       margin-top: 30%;
+ }
+ }
+ @media(max-width:480px){
+  .mobileNumber{
+       width: 78vw;
+       
+ }
+ } 
+
+ @media(max-width:480px){
+    .container-login{
+        margin-top:20%; 
+        margin-left: 7%;
+       } 
+   } 
